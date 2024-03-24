@@ -7,16 +7,14 @@ import { Navbar } from "./components";
 import "./App.scss";
 
 const App = () => {
-  //return <div>Adoo from App</div>;
-
   return (
     <div className="app">
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
       <About />
       <Work />
       <Skills />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   );

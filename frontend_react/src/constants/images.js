@@ -25,7 +25,7 @@ import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
+//import logo from "../assets/logo.png";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -35,7 +35,7 @@ import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
-export default {
+const imgObj = {
   email,
   mobile,
   api,
@@ -61,7 +61,7 @@ export default {
   about04,
   profile,
   circle,
-  logo,
+  //logo,
   adidas,
   amazon,
   asus,
@@ -70,3 +70,5 @@ export default {
   skype,
   spotify,
 };
+
+export default imgObj;
