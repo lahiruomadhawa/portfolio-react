@@ -35,6 +35,9 @@ import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
+import dotNetForHeader from "../assets/dotNetForHeader.png";
+import reactForHeader from "../assets/reactForHeader.png";
+
 const imgObj = {
   email,
   mobile,
@@ -69,6 +72,8 @@ const imgObj = {
   nb,
   skype,
   spotify,
+  dotNetForHeader,
+  reactForHeader,
 };
 
 export default imgObj;
